@@ -28,12 +28,26 @@
 	display: inline-block;
 	border: 1px solid black;
 }
-.namesect
+.namesect:nth-of-type(1)
 {
 	float:right;
 	border: 1px solid black;
 	clear: right;
-	background-color: grey;
+	background-color: blue;
+}
+.namesect:nth-of-type(2)
+{
+	float:right;
+	border: 1px solid black;
+	clear: right;
+	background-color: orange;
+}
+.namesect:nth-of-type(3)
+{
+	float:right;
+	border: 1px solid black;
+	clear: right;
+	background-color: yellow;
 }
 .texts
 {
