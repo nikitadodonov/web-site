@@ -12,12 +12,13 @@
 	display: inline-block;
 	border: 1px solid black;
 }
-cont_3>namesect
+.cont_2
 {
-	float:right;
+	width:30%;
+	height:auto;
+	background-color: #f0f0f0;
+	display: inline-block;
 	border: 1px solid black;
-	clear: right;
-	background-color: orange!important;
 }
 .cont_3
 {
@@ -32,21 +33,7 @@ cont_3>namesect
 	float:right;
 	border: 1px solid black;
 	clear: right;
-	background-color: blue;
-}
-.namesect:nth-of-type(2)
-{
-	float:right;
-	border: 1px solid black;
-	clear: right;
-	background-color: orange!important;
-}
-.namesect:nth-of-type(3)
-{
-	float:right;
-	border: 1px solid black;
-	clear: right;
-	background-color: yellow!important;
+	background-color: gray;
 }
 
 .texts
