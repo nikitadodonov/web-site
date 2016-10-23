@@ -40,15 +40,16 @@
 	float:right;
 	border: 1px solid black;
 	clear: right;
-	background-color: orange;
+	background-color: orange!important;
 }
 .namesect:nth-of-type(3)
 {
 	float:right;
 	border: 1px solid black;
 	clear: right;
-	background-color: yellow;
+	background-color: yellow!important;
 }
+
 .texts
 {
 	padding: 10px;
