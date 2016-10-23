@@ -12,13 +12,12 @@
 	display: inline-block;
 	border: 1px solid black;
 }
-.cont_2
+cont_3>namesect
 {
-	width:30%;
-	height:auto;
-	background-color: #f0f0f0;
-	display: inline-block;
+	float:right;
 	border: 1px solid black;
+	clear: right;
+	background-color: orange!important;
 }
 .cont_3
 {
