@@ -23,8 +23,8 @@ body {
   padding-top: 25px;
 }
 .navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
-  color: #557c3e;
+  font-family:  serif;
+  color: red;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -127,7 +127,7 @@ body {
   position: relative;
   border: 2px solid #3F0C1F;
   overflow: hidden;
-  background-color: blue;
+  background-color: grey;
 }
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
@@ -135,7 +135,7 @@ body {
 #menu-tile {
   background: url('../images/menu-tile.jpg') no-repeat;
   background-position: center;
-  background-color: blue;
+  background-color: grey;
 }
 #specials-tile {
   background: url('../images/specials-tile.jpg') no-repeat;
@@ -374,4 +374,7 @@ h3.menu-item-title {
 }
 #nav-list .visible-xs {
   background-color: : blue;
+}
+.navbar-static-top  {
+  text-align: left;
 }
